@@ -2,7 +2,7 @@
 
 pkgbase=sheepshaver-kanjitalk755-git
 pkgname=(sheepshaver-kanjitalk755-git sheepnet-dkms-kanjitalk755-git)
-pkgver=2.5.607f4ed
+pkgver=r2953.g607f4ed3
 pkgrel=1
 pkgdesc="An Open Source PowerMac Emulator"
 arch=('x86_64')
