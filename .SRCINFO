@@ -1,28 +1,29 @@
-pkgbase = sheepshaver-git
+pkgbase = sheepshaver-kanjitalk755-git
 	pkgdesc = An Open Source PowerMac Emulator
-	pkgver = r2608.g01052ca8
-	pkgrel = 2
+	pkgver = r2953.g607f4ed3
+	pkgrel = 1
 	url = http://sheepshaver.cebix.net
 	arch = x86_64
 	license = GPL
+	makedepends = git
+	makedepends = dkms
 	depends = gtk2
-	depends = sdl
-	depends = vde2
-	source = git+https://github.com/cebix/macemu
+	depends = sdl2
+	source = git+https://github.com/kanjitalk755/macemu
 	source = SheepShaver.sysctl
 	source = SheepShaver.desktop
 	source = SheepShaver.png
 	sha256sums = SKIP
 	sha256sums = a4aa858b95d29906873693988d5db42d5a4da8aa94a72c79374f59fc488efd51
-	sha256sums = cb002e73e864a6ca271e0bbaa6df6eb89dc1df86856fc575c20bf79367458c39
+	sha256sums = 31d9d53f1532a6e4258cb48ba2e638962f640c6401e4a5bfe4b59bd568eab74b
 	sha256sums = b7f67b1f8424f3e0ffa1a5e57597f368c4c4f93ea1f871ec0a76700b7519b241
 
-pkgname = sheepshaver-git
-	provides = sheepshaver=r2608.g01052ca8
+pkgname = sheepshaver-kanjitalk755-git
+	provides = sheepshaver=r2953.g607f4ed3
 	conflicts = sheepshaver
 
-pkgname = sheepnet-dkms-git
+pkgname = sheepnet-dkms-kanjitalk755-git
 	depends = dkms
-	provides = sheepnet-dkms=r2608.g01052ca8
+	provides = sheepnet-dkms=r2953.g607f4ed3
 	conflicts = sheepnet-dkms
 
